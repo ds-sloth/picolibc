@@ -212,7 +212,7 @@ option('picoexit', type: 'boolean', value: true,
        description: 'Smaller exit/atexit/onexit code')
 option('initfini-array', type: 'boolean', value: true,
        description: 'compiler supports INIT_ARRAY section types')
-option('initfini', type: 'boolean', value: false,
+option('initfini', type: 'boolean', value: true,
        description: 'Supports _init() and _fini()')
 option('crt-runtime-size', type: 'boolean', value: false,
        description: 'compute crt memory space sizes at runtime')
